@@ -1,0 +1,75 @@
+Arguments: 
+  /Users/thomas_ochman/.nvm/versions/node/v13.1.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js
+
+PATH: 
+  /Users/thomas_ochman/.rvm/gems/ruby-2.5.1/bin:/Users/thomas_ochman/.rvm/gems/ruby-2.5.1@global/bin:/Users/thomas_ochman/.rvm/rubies/ruby-2.5.1/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/Users/thomas_ochman/.nvm/versions/node/v13.1.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/thomas_ochman/.rvm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.1.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz: Request failed "504 Gateway Timeout"
+      at ResponseError.ExtendableBuiltin (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:696:66)
+      at new ResponseError (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:802:124)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:67057:16)
+      at Request.emit (events.js:210:5)
+      at Request.module.exports.Request.onRequestResponse (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:141625:10)
+      at ClientRequest.emit (events.js:210:5)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:585:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:111:17)
+      at TLSSocket.socketOnData (_http_client.js:454:22)
+      at TLSSocket.emit (events.js:210:5)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject",
+      "test": "jest --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/vector-icons": "~10.0.6",
+      "@react-native-community/masked-view": "0.1.6",
+      "@react-navigation/bottom-tabs": "^5.0.0",
+      "@react-navigation/native": "^5.0.0",
+      "@react-navigation/stack": "^5.0.0",
+      "@react-navigation/web": "~1.0.0-alpha.9",
+      "expo": "~37.0.3",
+      "expo-asset": "~8.1.3",
+      "expo-constants": "~9.0.0",
+      "expo-font": "~8.1.0",
+      "expo-web-browser": "~8.1.0",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz",
+      "react-native-gesture-handler": "~1.6.0",
+      "react-native-safe-area-context": "0.7.3",
+      "react-native-screens": "~2.2.0",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.6",
+      "babel-preset-expo": "~8.1.0",
+      "jest-expo": "~37.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
