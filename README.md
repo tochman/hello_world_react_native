@@ -9,7 +9,7 @@ $ yarn web
 ```
 
 ```
-$ yarn cypres
+$ yarn cypress
 ```
 
 Execute the test in `userCanNavigate.feature.js`.
